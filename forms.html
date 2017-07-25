@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+          <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+          <link href="forms.css" rel="stylesheet" type="text/css">
+          <link href="forms.js" rel="stylesheet" type="text/js">
+          <script src="js/jquery-1.12.0.js"></script>
+          <script src="forms.js"></script>
+          <title>A fantastical adventure</title>
+        </head>
+        <body>
+          <div class="container">
+            <h1>Fill in the blanks to write your story!</h1>
+            <div id="blanks">
+              <form>
+                <div class="form-group">
+                  <label for="person1">A name</label>
+                  <input id="person1" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="person2">Another name</label>
+                  <input id="person2" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="animal">An animal</label>
+                  <input id="animal" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="exclamation">An exclamation</label>
+                  <input id="exclamation" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="verb">A past tense verb</label>
+                  <input id="verb" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="noun">A noun</label>
+                  <input id="noun" class="form-control" type="text">
+                </div>
+
+                <button type="submit" class="btn">Show me the story!</button>
+              </form>
+            </div>
+
+            <div id="story">
+              <h1>A fantastical adventure</h1>
+              <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
+            </div>
+          </div>
+        </body>
+      </html>
